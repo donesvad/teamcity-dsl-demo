@@ -40,6 +40,17 @@ object Build : BuildType({
         root(DslContext.settingsRoot)
     }
 
+    steps {
+        script {
+            name = "Run hello.sh"
+            scriptContent = """
+                set -e
+                chmod +x ./hello.sh || true
+                ./hello.sh
+            """.trimIndent()
+        }
+    }
+
     triggers {
         vcs {
         }
