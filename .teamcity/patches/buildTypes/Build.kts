@@ -12,6 +12,7 @@ changeBuildType(RelativeId("Build")) {
     params {
         add {
             param("Test Param1", "env.AGENT_NAME")
+            param("Test Param2", "Test Param2")
         }
     }
 }
