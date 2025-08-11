@@ -28,6 +28,12 @@ object Build : BuildType({
                 ./hello.sh
             """.trimIndent()
         }
+        script {
+            name = "Echo secure parameter"
+            scriptContent = """
+                echo "Secure value is: %secure.myPassword%"
+            """.trimIndent()
+        }
     }
 
     triggers {
