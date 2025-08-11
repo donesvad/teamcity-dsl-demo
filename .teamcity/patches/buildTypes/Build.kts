@@ -11,13 +11,13 @@ accordingly, and delete the patch script.
 changeBuildType(RelativeId("Build")) {
     params {
         add {
-            password("Test Password", "zxx6cd39160615a50fb")
-        }
-        add {
             param("Test Param1", "env.AGENT_NAME")
         }
         add {
             param("Test Param 3", "asdasdas4")
+        }
+        add {
+            password("secure.myPassword", "zxx6cd39160615a50fb")
         }
         add {
             param("Test Param 2", "Test Param 2")
