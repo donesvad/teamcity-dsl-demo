@@ -17,7 +17,7 @@ changeBuildType(RelativeId("Build")) {
             param("Test Param 2", "Test Param 2")
         }
         add {
-            param("Test Param 3", "asdasdas")
+            param("Test Param 3", "asdasdas3")
         }
     }
 }
