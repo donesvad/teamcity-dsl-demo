@@ -10,7 +10,7 @@ project {
 }
 
 object Build : BuildType({
-    name = "Hello script"
+    name = "Hello script123"
 
     publishArtifacts = PublishMode.SUCCESSFUL
 
