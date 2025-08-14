@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="4bd17346-ebbe-48f2-807c-5cc3ac9470fb" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2025.3/project-config.xsd">
+  <name>DslSamples</name>
+  <project-extensions>
+    <extension id="PROJECT_EXT_4" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="PREFER_VCS" />
+        <param name="enabled" value="true" />
+        <param name="ignoreChangesInDependenciesAndVcsSettings" value="false" />
+        <param name="rootId" value="dsl_DslSamples_git" />
+        <param name="showChanges" value="false" />
+        <param name="twoWaySynchronization" value="false" />
+      </parameters>
+    </extension>
+  </project-extensions>
+</project>
+
