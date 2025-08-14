@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="7d574555-636c-4733-add9-ddcdc7b90329" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2025.3/project-config.xsd">
+  <name>DSL Repo for DslSamples</name>
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/main" />
+  <param name="secure:password" value="zxx04d1768946083b5afae6de3f9edd8a93f9d9c9c0e0940d925c93ec760c4e098523bb6533e0030012775d03cbe80d301b" />
+  <param name="url" value="https://github.com/donesvad/teamcity-dsl-demo.git" />
+  <param name="username" value="donesvad" />
+</vcs-root>
+
