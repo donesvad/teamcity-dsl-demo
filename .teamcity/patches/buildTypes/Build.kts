@@ -19,8 +19,5 @@ changeBuildType(RelativeId("Build")) {
         add {
             password("secure.myPassword", "zxx6cd39160615a50fb")
         }
-        add {
-            param("Test Param 2", "Test Param 2")
-        }
     }
 }
